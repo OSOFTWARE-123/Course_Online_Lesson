@@ -1,13 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <title>Document</title>
-</head>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <body>
+
+<div class="w3-container">
+  <h2>Card Example</h2>
+
+  <div class="w3-card-4 w3-dark-grey" style="width:50%">
+
+    <div class="w3-container w3-center">
+      <h3>Friend Request</h3>
+      <img src="img_avatar3.png" alt="Avatar" style="width:50%">
+      <h5>Archif ARCHOCAK</h5>
+
+      <div class="w3-section">
+        <button class="w3-button w3-green" onclick="accepted();">Accept</button>
+        <button class="w3-button w3-red" onclick="declined();">Decline</button>
+      </div>
+    </div>
+
+  </div>
+</div>
     
+    <br><br><br><br>
+    <h1 id="error"></h1>
+    <script src="main.js"></script>
+
 </body>
 </html>
